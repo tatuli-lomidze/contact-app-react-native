@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View, Text, StyleSheet, Button, TextInput, ScrollView, SectionList, FlatList } from 'react-native';
+import { View, Text, StyleSheet, TextInput, FlatList } from 'react-native';
 import contacts from './contacts';
 
 const ContactApp = ({ reverseList }) => {
